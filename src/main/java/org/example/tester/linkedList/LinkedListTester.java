@@ -14,7 +14,7 @@ public class LinkedListTester {
      *
      * @return массив значений типа {add, delete, get}
      */
-    public static long[] doAllTests(int repetitions){
+    static long[] doAllTests(int repetitions){
         long[] arr = new long[3];
         arr[0] = addTest(repetitions);
         arr[1] = deleteTest(repetitions);

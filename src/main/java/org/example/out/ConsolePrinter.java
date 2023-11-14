@@ -18,7 +18,7 @@ public class ConsolePrinter {
      * @param repetitions количество элементов
      * */
     public static void printTable(long[] arrayList, long[] linkedList, int repetitions){
-        if (arrayList.length != linkedList.length && arrayList.length != 3 && linkedList.length !=3){
+        if (arrayList.length != 3 || linkedList.length !=3){
             throw new RuntimeException("ArrayLengthException");
         }
 

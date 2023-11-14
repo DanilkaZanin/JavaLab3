@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Реализует тесты методов класса ArrayList
  * @author danila
  */
-public class ArrayListTester {
+public class ArrayListTester{
 
     /**
      * проводит тесты методов (add, delete, get) у класса ArrayList
@@ -15,7 +15,7 @@ public class ArrayListTester {
      *
      * @return массив значений типа {add, delete, get}
      */
-    public static long[] doAllTests(int repetitions){
+     static long[] doAllTests(int repetitions){
         long[] arr = new long[3];
         arr[0] = addTest(repetitions);
         arr[1] = deleteTest(repetitions);
